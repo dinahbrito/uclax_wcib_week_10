@@ -2,6 +2,12 @@ body {
   background-color: #fafaed;
   color: #362d1f;
   font-family: 'HelveticaNeue-light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif; }
+  body h1 {
+    font-weight: 400;
+    font-size: 30px; }
+  body h2 {
+    font-weight: 700;
+    font-size: 30px; }
 
 .logo {
   font-weight: 400;
@@ -11,8 +17,19 @@ body {
     text-decoration: none;
     color: #362d1f; }
 
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #362d1f !important; }
+
 .nav-link:hover {
   color: #362d1f;
   border-bottom: 2px solid #362d1f;
   padding-bottom: 4px;
   text-decoration: none; }
+
+.intro {
+  margin-top: 155px; }
+
+.project-title {
+  padding-top: 175px; }

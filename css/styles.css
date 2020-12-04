@@ -3,8 +3,8 @@ body {
   color: #362d1f;
   font-family: 'HelveticaNeue-light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif; }
   body h1 {
-    font-weight: 400;
-    font-size: 30px; }
+    font-weight: 700;
+    font-size: 54px; }
   body h2 {
     font-weight: 700;
     font-size: 30px; }
@@ -40,7 +40,10 @@ body {
   text-decoration: none; }
 
 .intro {
-  margin-top: 155px; }
+  margin-top: 155px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal; }
 
 .project-title {
   padding-top: 175px; }

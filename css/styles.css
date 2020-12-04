@@ -9,16 +9,22 @@ body {
     font-weight: 700;
     font-size: 30px; }
   body h3 {
+    font-size: 30px;
+    font-weight: 400; }
+  body h4 {
     font-weight: 400;
     font-size: 22px; }
-    body h3 a, body h3 a:hover {
+    body h4 a, body h4 a:hover {
       color: #362d1f;
       text-decoration: none; }
-    body h3 a:hover {
+    body h4 a:hover {
       color: #362d1f;
       border-bottom: 2px solid #362d1f;
       padding-bottom: 4px;
       text-decoration: none; }
+  body h5 {
+    font-size: 16px;
+    font-weight: 700; }
 
 .logo {
   font-weight: 400;
@@ -48,7 +54,7 @@ body {
 .project-title {
   padding-top: 175px; }
 
-.ux img {
+img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 footer {
@@ -57,3 +63,9 @@ footer {
   margin-top: 30px; }
   footer .social {
     text-align: right; }
+
+.title {
+  padding-top: 125px; }
+
+.titleux {
+  padding-top: 65px; }

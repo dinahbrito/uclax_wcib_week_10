@@ -25,6 +25,16 @@ body {
   body h5 {
     font-size: 16px;
     font-weight: 700; }
+  body h6 {
+    font-size: 14px;
+    font-weight: 700; }
+  body em {
+    font-size: 16px;
+    font-style: italic; }
+  body ul {
+    padding: 0; }
+  body p {
+    line-height: normal; }
 
 .logo {
   font-weight: 400;

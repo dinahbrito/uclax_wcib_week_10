@@ -1,6 +1,7 @@
 body {
-  background-color: #fafaed;
+  background: url("../images/ricepaper.png");
   color: #362d1f;
+  background-color: #fafaed;
   font-family: 'HelveticaNeue-light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif; }
   body h1 {
     font-weight: 700;
@@ -68,11 +69,17 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 footer {
+  background: url("../images/papertexture.png");
+  background-size: 100% 100%;
   background-color: #362d1f;
   color: white;
   margin-top: 30px; }
   footer .social {
-    text-align: right; }
+    text-align: right;
+    padding-top: 10px; }
+
+.copyright {
+  padding-top: 10px; }
 
 .title {
   padding-top: 125px; }

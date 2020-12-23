@@ -1,7 +1,6 @@
 body {
-  background: url("../images/ricepaper.png");
-  color: #362d1f;
-  background-color: #fafaed;
+  color: #383E49;
+  background-color: #F5F5F1;
   font-family: 'HelveticaNeue-light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif; }
   body h1 {
     font-weight: 700;
@@ -16,11 +15,11 @@ body {
     font-weight: 400;
     font-size: 22px; }
     body h4 a, body h4 a:hover {
-      color: #362d1f;
+      color: #383E49;
       text-decoration: none; }
     body h4 a:hover {
-      color: #362d1f;
-      border-bottom: 2px solid #362d1f;
+      color: #383E49;
+      border-bottom: 2px solid #383E49;
       padding-bottom: 4px;
       text-decoration: none; }
   body h5 {
@@ -40,19 +39,19 @@ body {
 .logo {
   font-weight: 400;
   font-size: 18px;
-  color: #362d1f; }
+  color: #383E49; }
   .logo.logo:hover {
     text-decoration: none;
-    color: #362d1f; }
+    color: #383E49; }
 
 .nav-link {
   font-weight: 400;
   font-size: 18px;
-  color: #362d1f !important; }
+  color: #383E49 !important; }
 
 .nav-link:hover {
-  color: #362d1f;
-  border-bottom: 2px solid #362d1f;
+  color: #383E49;
+  border-bottom: 2px solid #383E49;
   padding-bottom: 4px;
   text-decoration: none; }
 
@@ -65,13 +64,8 @@ body {
 .project-title {
   padding-top: 175px; }
 
-img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
 footer {
-  background: url("../images/papertexture.png");
-  background-size: 100% 100%;
-  background-color: #362d1f;
+  background-color: #383E49;
   color: white;
   margin-top: 30px; }
   footer .social {

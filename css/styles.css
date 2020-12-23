@@ -83,3 +83,6 @@ footer {
 
 .webdev img {
   max-height: 212px; }
+
+.zoom:hover {
+  transform: scale(1.02); }

@@ -24,12 +24,31 @@ h4 {
     color: #383E49;
     text-decoration: none;
   }
-  a:hover {
-    color: #383E49;
-    border-bottom: 2px solid #383E49;
-    padding-bottom: 4px;
-    text-decoration: none;
-  }
+}
+
+.left {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.left:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #383E49;
+  height: 1px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.left:hover:after,
+.left:focus:after,
+.left:active:after {
+  right: 0;
 }
 
 h5 {
@@ -74,8 +93,6 @@ p {
 }
 .nav-link:hover {
   color: #383E49;
-  border-bottom: 2px solid #383E49;
-  padding-bottom: 4px;
   text-decoration: none;
   }
 

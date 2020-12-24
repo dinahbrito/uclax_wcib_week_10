@@ -53,7 +53,11 @@ h4 {
 
 h5 {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
+  a, a:hover{
+    color: #383E49;
+    text-decoration: none;
+  }
 }
 
 h6 {

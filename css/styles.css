@@ -39,7 +39,10 @@ body {
     right: 0; }
   body h5 {
     font-size: 16px;
-    font-weight: 700; }
+    font-weight: 400; }
+    body h5 a, body h5 a:hover {
+      color: #383E49;
+      text-decoration: none; }
   body h6 {
     font-size: 14px;
     font-weight: 700; }

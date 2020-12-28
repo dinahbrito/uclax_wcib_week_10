@@ -142,3 +142,33 @@ transform: scale(1.02);
 }
 
 /* hero styling */
+
+.overview {
+  ul {
+    list-style-type: none;
+    line-height: 1.6;
+  }
+}
+
+.clearview {
+  p {
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  ul {
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+}
+blockquote{
+  color: #555555;
+  line-height:1.6;
+  background:#EDEDED;
+  text-align: center;
+  p{
+    font-weight: 700;
+    font-size: 22px !important;
+  }
+}

@@ -100,10 +100,6 @@ footer {
 .webdev img {
   max-height: 212px; }
 
-.zoom:hover {
-  transform: scale(1.02); }
-
-/* hero styling */
 .overview ul {
   list-style-type: none;
   line-height: 1.6; }

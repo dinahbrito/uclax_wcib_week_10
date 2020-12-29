@@ -143,3 +143,8 @@ blockquote {
 .linkedin:hover {
   color: #383E49;
   text-decoration: none; }
+
+.mhmap {
+  max-height: 600px;
+  background-color: white;
+  padding: 20px; }

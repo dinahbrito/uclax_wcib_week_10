@@ -136,3 +136,14 @@ blockquote {
 .resumebtn:hover {
   color: white;
   background-color: #383E49 !important; }
+
+.linkedin {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 20px;
+  color: #383E49;
+  text-transform: uppercase; }
+
+.linkedin:hover {
+  color: #383E49;
+  text-decoration: none; }
